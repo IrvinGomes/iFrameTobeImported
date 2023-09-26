@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
-/** @type {import('helmet').HelmetOptions} */
+
 const nextConfig = {
   reactStrictMode: true,
   async headers() {
@@ -9,7 +9,7 @@ const nextConfig = {
         headers: [
           {
             key: 'Content-Security-Policy',
-            value: "frame-ancestors 'http://localhost:3000/'",
+            value: "frame-ancestors 'self' 'http://localhost:3000/'",
           },
         ],
       },
