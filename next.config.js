@@ -9,7 +9,7 @@ const nextConfig = {
         headers: [
           {
             key: 'Content-Security-Policy',
-            value: "frame-ancestors 'self' 'https://iframetobeimported.netlify.app/iframe'",
+            value: "frame-ancestors 'self' http://localhost:3000/",
           },
         ],
       },
