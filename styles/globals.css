@@ -23,8 +23,8 @@ body {
 .iframe{
   width: auto;
   min-height: 150px;
-  height: 100%;
-  margin: 2em;
+  height: auto;
+  /* margin: 2em; */
   padding: 1em;
   border-radius: 5px;
   box-shadow: gray 0em 0em 1em;
